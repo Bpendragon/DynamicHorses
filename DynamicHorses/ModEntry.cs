@@ -38,11 +38,9 @@ namespace DynamicHorses
 
 			SaveEvents.AfterLoad += FileLoaded;
 			MenuEvents.MenuClosed += MenuClosed;
-			/*
 			string[] a = { "Stardew Valley" };
 			string b = helper.DirectoryPath.Split(a, StringSplitOptions.RemoveEmptyEntries)[1];
 			RelativePath = Path.Combine("SDV", b).Replace("SDV","..");
-			*/
 		}
 
 		
